@@ -1,6 +1,8 @@
 body {
     background-color: #f7f7f7;
     font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
 }
 
 #title, .subtitle, .post-title {
@@ -19,7 +21,7 @@ a {
 
 .post-title {
     font-size: 16px;
-    font-style: italic;
+    font-style: normal;
     margin: 0;
     margin-bottom: 15px;
 }
@@ -36,14 +38,28 @@ a {
     margin: 0;
     margin-bottom: 15px;
     text-transform: capitalize;
+    text-align: justify;
+    margin-top: 10px;
+    font-style: italic;
 }
 
 .photo {
     margin-bottom: 15px;
-}
+    width: 100%;
+    }
 
 .creator {
     border-radius: 50%;
     border: #505050;
     width: 25%;
 }
+
+.contacts {
+    list-style-type: square;
+    padding-left: 15px;
+    }
+
+.contacts li a {
+    color: blue;
+    text-decoration: none;
+}    
