@@ -1,12 +1,12 @@
 body {
-    background-color: #f7f7f7;
+    background-color: rgb(54, 53, 53);
     font-family: Verdana;
     max-width: 900px;
     margin: auto;
 }
 
 #title, .subtitle, .post-title {
-    color: #505050;
+    color: #83277e;
 }
 
 #title {
@@ -16,7 +16,7 @@ body {
 
 a {
     text-decoration: line-through;
-    color: #505050;
+    color: #83277e;
 }
 
 .post-title {
@@ -29,7 +29,7 @@ a {
 .post {
     background-color: #fff;
     padding: 15px;
-    border: 3px solid #505050;
+    border: 3px solid #83277e;
     margin-bottom: 15px;
     border-radius: 10px;
 }
@@ -50,7 +50,7 @@ a {
 
 .creator {
     border-radius: 50%;
-    border: #505050;
+    border: #83277e;
     width: 25%;
 }
 
@@ -62,4 +62,5 @@ a {
 .contacts li a {
     color: blue;
     text-decoration: none;
+    text-decoration: underline;
 }    
