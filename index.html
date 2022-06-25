@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Antonio Ramos</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <header>
-        <img src="images/antonio2square.JPG" alt="Foto de Antonio Gonçalves, criador do site" class="creator">
+        <img src="assets/imgs/antonio2square.JPG" alt="Foto de Antonio Gonçalves, criador do site" class="creator">
         <h1 class="title">Antonio Gonçalves Ramos Neto</h1>
     </header>
     <section>
@@ -20,7 +20,7 @@
             <header>
                 <h3 class="post-title">Post #1</h3>
                 <h4>Meu primeiro post!</h4>
-                <img src="images/image-html.jpg" alt="Código HTML em um editor de texto">                               
+                <img src="assets/imgs/image-html.jpg" alt="Código HTML em um editor de texto">                               
             </header>
             <p class="post-content">Hello, World!</p>
         </article>
@@ -37,6 +37,17 @@
                 <button name="somar" onclick='increment()'>+</button>
             </div>
         </article>
+        <article class="post">
+            <header>
+                <h3 class="post-title">Post #3</h3>
+                <h4>Mode changer</h4>
+                <img src="" alt="">                               
+            </header>
+            <p class="post-content">Click the buttom below to chenge between dark and light mode!</p>
+            <section>
+                <button aria-label="selecionar-modo" id="mode-selector">Dark Mode</button>
+            </section>
+        </article>
     </section>
     <footer>
         <ul class="contacts">
@@ -47,6 +58,6 @@
             <li><a href="https://github.com/Anton-grn" target="_blank">GitHub</a></li>
         </ul>
     </footer>
-    <script src="javascript/contador.js"></script>
+    <script src="assets/js/contador.js"></script>
 </body>
 </html>
